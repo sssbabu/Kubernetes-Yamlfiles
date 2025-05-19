@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-configmap
+data:
+  wordpress_version: "5.2.2"
+  wordpress_user: "ubuntu"
