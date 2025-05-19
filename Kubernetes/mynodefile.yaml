@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-nodeport
+  namespace: mynamespace
+  labels:
+    run: nginx
+spec:
+  containers:
+    - image: nginx:latest
+      name: nginxcontainer
